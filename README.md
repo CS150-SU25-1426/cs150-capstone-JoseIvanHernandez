@@ -1,3 +1,48 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/W7bqK6NI)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=19959959)
-# CS150-Capstone
+# 📦 Borland C++ 5.02 Setup (Legacy Dev Tools)
+
+This folder documents the setup, environment, and integration path for the Borland C++ 5.02 IDE and OWL (ObjectWindows Library 5.0), preserved for use in this hybrid file auditing project.
+
+---
+
+## 🔗 ISO Source
+
+- **Borland C++ 5.02 ISO (WinWorld)**  
+  📎 https://winworldpc.com/download/35c2be17-78c3-8cc3-8e11-c3a6c2bb2a52  
+  *(Educational/archival use only – not included in repo)*
+
+---
+
+## 📦 Full Environment Backup
+
+To streamline setup across lab or virtual machines, this repo includes a ZIP archive (`bcc_bc5.zip`) of the **entire working Borland IDE** environment. While the original ISO is ~175MB across floppies, this snapshot ensures:
+
+- No missing tools or headers
+- OWL library and Help files intact
+- Fast deployment without manual installs
+
+> This archive is synced from a working lab machine where Borland was fully installed and tested.
+
+---
+
+## 🧱 Folder Contents
+
+| Folder        | Purpose                                        |
+|---------------|------------------------------------------------|
+| `config/`     | Scripts to mimic Borland toolchain environment |
+| `notes/`      | ISO references, setup logs, path plans         |
+| `samples/`    | Future OWL GUI stubs and retro test projects   |
+
+---
+
+## 🧰 Local Windows Setup (Optional)
+
+If setting up on a VM or Windows host:
+
+```plaintext
+Target Folder: C:\DevTools\BorlandCPP
+Extracted ISO contents:
+  - BIN\
+  - INCLUDE\
+  - LIB\
+  - OWL\
+  - HELP\
